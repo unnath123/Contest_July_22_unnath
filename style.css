@@ -1,16 +1,15 @@
-body{
-    padding-bottom: 50px;
-}
-main{
-    margin-bottom:50px;
-}
+ 
+ 
 .navbar{
      
     display: flex;
+    position: fixed;
     align-items: center;
     justify-content: space-between;
     width:100%;
     margin:0;
+    height:200px;
+    background-color: white;;
 }
 li{
     text-decoration: none;
@@ -18,17 +17,23 @@ li{
     display:inline;
      
 }
+ 
 .logo{
-width:230px;
-height:66px;
+width:200px;
+height:60px;
 position:fixed;
-top:34px;
+top:25px;
 left:49px
 }
-.item-1,.item-2{
+.item-1{
     position: fixed;
-    top:44px;
-    left:287px;
+    top:48px;
+    left:265px;
+}
+.item-2{
+    position: fixed;
+    top:48px;
+    left:285px;
 }
 .a-s{
     position: fixed;
@@ -85,12 +90,26 @@ left:49px
 
 
  }
+ gh{
+    position: relative;
+    
+    left:200;
+ }
+ .in{
+    position: relative;
+ }
+  
+ 
+   
   
  #input::placeholder{
     font-size:20px ;
-    padding:10px;
+    padding-left:30px;
  }
- 
+ .se{
+    background-color: white;
+    height: 78px;
+ }
  .img1{
     width:400px;
     height:300px;
@@ -99,6 +118,7 @@ left:49px
    .sp{
     margin-right:20px;
     color:rgb(7, 113, 149);
+    width:20px;
    }
  .cap {
     display:flex;
@@ -111,7 +131,7 @@ left:49px
     width: 100%;
      position:relative;
     border-right: none;
-     
+    left:20; 
     height: 78px;
      
     border:0px solid white;
@@ -284,12 +304,11 @@ left:49px
     margin:10px;
     position: relative; 
     display: flex;
-    position: relative;
     top:280px;
     border-radius: 30px;
     background-image: linear-gradient(to right, rgb(235, 207, 207),rgb(178, 244, 229));
     box-shadow: 0px 2px 2px 0px #00000040;
-    margin-bottom:50px;
+      
 
    }
    .foot-content{
@@ -353,4 +372,6 @@ text-align: left;
     left: 600px;
     top:200px;
 }
- 
+ main{
+    padding-bottom:50px;
+ }
